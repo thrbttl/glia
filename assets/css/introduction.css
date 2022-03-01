@@ -1,0 +1,74 @@
+.introduction {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-gradient-linearRGB-lr);
+  height: 90vh;
+  position: relative;
+}
+.intoduction-svg1 {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.intoduction-svg2 {
+  position: absolute;
+  top: 0%;
+  left: auto;
+  right: -70%;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  row-gap: 3rem;
+  height: 100vh;
+  width: 80%;
+  position: relative;
+}
+
+.introduction-subtitle h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: var(--color-softText);
+}
+
+.introduction-title h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  color: var(--color-white);
+}
+.introduction-text{
+  width: 80%;
+}
+.introduction-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.03em;
+  line-height: 2rem;
+  text-align: center;
+  color: #d0d0d0;
+}

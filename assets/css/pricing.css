@@ -1,0 +1,204 @@
+.pricing-text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary);
+  height: 50vh;
+  gap: 3rem;
+}
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  background: var(--color-primary);
+  height: 50vh;
+  width: 80%;
+  gap: 2rem;
+}
+.pricing-title h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 6rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+
+  z-index: 1;
+}
+.piricing-subtitle p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 2.25rem;
+  text-align: center;
+  color: #d0d0d0;
+
+  z-index: 1;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  background: var(--color-primary);
+  height: 100vh;
+  gap: 3rem;
+
+  position: relative;
+}
+.piricing-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1.875rem;
+  padding-top: 3rem;
+  width: 80%;
+  height: 38.25rem;
+  gap: 2.5rem;
+  z-index: 1;
+}
+.piricing-box-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+  width: 37.5rem;
+}
+.piricing-box-info-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.piricing-box-info-title h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  letter-spacing: 0.03rem;
+  line-height: 4.5rem;
+  color: var(--color-white);
+  z-index: 1;
+}
+
+.piricing-box-info-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.75rem;
+  color: #d0d0d0;
+
+  z-index: 1;
+}
+
+.piricing-box-pricebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 16.5rem;
+  gap: 1.5rem;
+}
+
+.piricing-box-pricebox-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  z-index: 1;
+}
+.pricing-box-pricebox-title h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  letter-spacing: 0.03rem;
+  line-height: 4.5rem;
+  color: var(--color-white);
+
+  z-index: 1;
+}
+.piricing-box-pricebox-price h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5rem;
+  letter-spacing: 0.05rem;
+  line-height: 6.75rem;
+
+  color: var(--color-white);
+  z-index: 1;
+}
+.piricing-box-pricebox-text {
+  z-index: 1;
+}
+.piricing-box-pricebox-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.75rem;
+  color: #d0d0d0;
+  z-index: 1;
+}
+
+.piricing-box-pricebox-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+.piricing-box-pricebox-button button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  background: var(--color-gradient-linearRGB-rl);
+  border-radius: .5rem;
+  width: 9.75rem;
+  height: 4.25rem;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 2.125rem;
+  text-align: center;
+
+  color: var(--color-white);
+}
+
+.pricing-svg {
+  position: absolute;
+  top: -3%;
+  width: 100%;
+  height: 100%;
+}
+
+.pricing-svg svg {
+  width: 100%;
+  height: 100%;
+}

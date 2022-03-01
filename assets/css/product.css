@@ -1,0 +1,69 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  gap: 3rem;
+
+  position: relative;
+}
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-around;
+  row-gap: 2rem;
+  width: 35%;
+
+  z-index: 1;
+}
+.product-title h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  letter-spacing: 0.05rem;
+  line-height: 6rem;
+  letter-spacing: 0.05em;
+  color: var(--color-white);
+}
+
+.product-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.25rem;
+  letter-spacing: 0.03rem;
+  line-height: 2rem;
+  text-align: left;
+  color: #d0d0d0;
+}
+.product-image {
+  z-index: 1;
+  background: var(--color-gradient-linearRGB-rl-10);
+  border-radius: 1rem;
+  width: 40%;
+  height: 46.125rem;
+}
+.product-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.product-vector {
+  position: absolute;
+  top: 0;
+  width: 110%;
+  height: 110%;
+}
+.product-vector svg {
+  width: 110%;
+  height: 110%;
+}

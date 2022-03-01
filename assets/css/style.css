@@ -1,0 +1,593 @@
+/* fonst */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./introduction.css");
+@import url("./info.css");
+@import url("./product.css");
+@import url("./pricing.css");
+@import url("./person.css");
+@import url("./contact.css");
+@import url("./footer.css");
+
+:root {
+  --color-primary: #1c1c33;
+  --color-primary-50: rgba(45, 45, 84, 0.5);
+  --color-orange: #ee6c4d;
+  --color-white: #ffffff;
+  --color-white-soft: #d0d0d0;
+  --color-softText: #9cabbd;
+  --color-grey-70: rgba(182, 182, 182, 0.6);
+  --color-gradient-linearRGB-rl: linear-gradient(
+    98.54deg,
+    #5a0762 0%,
+    #0a3f78 100%
+  );
+  --color-gradient-linearRGB-rl-10: linear-gradient(
+    98.54deg,
+    rgba(90, 7, 98, 0.1) 0%,
+    rgba(10, 63, 120, 0.1) 100%
+  );
+  --color-gradient-linearRGB-lr: linear-gradient(
+    107.56deg,
+    #0a3f78 0%,
+    #4b0762 100%
+  );
+  /* --color-dark-green: #3B5743; */
+  /* --color-black: #000000; */
+
+  /* --color-gradient-linearBlue: linear-gradient(90deg, #4040FC 3.66%, rgba(49, 49, 88, 0.5) 49.55%, #4040FC 96.42%); */
+  /* --color-gradient-linearGreen: linear-gradient(271.95deg, #3D5E46 -1.56%, rgba(31, 173, 70, 0) 41.54%, #3D5E46 90.38%); */
+  /* --color-gradient-linearOverlay: linear-gradient(123.31deg, rgba(90, 7, 98, 0.05) 11.77%, rgba(10, 63, 120, 0.05) 84.21%); */
+  /* --color-gradient-linearVectorLight:linear-gradient(89.99deg, #A8C4D3 3.29%, rgba(132, 169, 188, 0.25) 47.31%, rgba(134, 130, 162, 0.25) 58.44%, #BEB0CF 96.18%); */
+
+  
+}
+
+@media (min-width: 744px) and (max-width: 1278px) {
+  .header-content {
+    height: 80vh;
+  }
+  .header-text .header-title h1{
+    font-size: 3rem;
+    line-height: 2rem;
+    }
+
+  .header-text .header-subtitle p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .header-button button {
+    gap: 2rem;
+
+    width: 17.75rem;
+    height: 3.75rem;
+
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .intoduction-svg1 {
+    position: absolute;
+    top: -10%;
+    left: -15%;
+  }
+
+  .intoduction-svg2 {
+    right: -75%;
+  }
+  .introduction-subtitle h3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .introduction-title h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0.05em;
+  }
+  .introduction-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .info{
+    gap: 1rem;
+    padding: 3rem 1rem;
+  }
+  .info-textbox{
+    width: 15rem;
+  }
+  .info-title h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .info-text p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .product {
+    flex-direction: column-reverse;
+    height: 54.25rem;
+    gap: 2%;
+  }
+
+  .product-content {
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  .product-text p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+
+  }
+  .product-image {
+    border-radius: 0px;
+    width: 100%;
+    height: 23.25rem;
+  }
+  .product-image img {
+    border-radius: 0px;
+  }
+  .product-vector {
+    top: 20%;
+    width: 100%;
+    height: 100%;
+  }
+  .product-vector svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pricing-text-area {
+    height: 50vh;
+    gap: 2rem;
+    border-top: .5px solid var(--color-primary-50);
+  }
+  .pricing-title h2 {
+    font-size: 3rem;
+  }
+  .piricing-subtitle p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .pricing {
+    flex-direction: column;
+    height: 125vh;
+  }
+  .piricing-box {
+    flex-direction: column-reverse;
+
+    align-items: center;
+    width: 100%;
+    border-radius: 0%;
+    height: 100%;
+    gap: 3rem;
+    padding-top: 0px;
+  }
+  .piricing-box-info {
+    row-gap: 2rem;
+    width: 80%;
+  }
+  .piricing-box-pricebox {
+    min-width: 80% !important;
+    align-items: center;
+  }
+  .piricing-box-pricebox-header {
+    align-items: center;
+    justify-content: center;
+  }
+  .piricing-box-info-title h2{
+    font-size: 3rem;
+    line-height: 1.5rem;
+  }
+  .piricing-box-info-text p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .piricing-box-pricebox-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .piricing-box-line {
+    display: none;
+  }
+
+  .person {
+    height: 95vh;
+  }
+  .person-border {
+    width: 80%;
+    height: 31.375rem;
+    border-radius: 1.25rem;
+  }
+  .person-card {
+    flex-direction: column;
+    width: 99.7%;
+    height: 31.25rem;
+    padding: 0px;
+    gap: 2rem;
+    border-radius: 1.25rem;
+  }
+  .person-avatar {
+    width: 9.25rem;
+    height: 9.25rem;
+  }
+  .person-avatar img {
+    width: 9.25rem;
+    height: 9.25rem;
+  }
+  .person-content {
+    align-items: center;
+  }
+  .person-subtitle h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .person-title h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .person-text p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .contact-overlay{
+    gap: 1rem;
+  }
+  .contact-subtitle h3 {
+    font-size: 1.5rem;
+    text-align: center;
+
+  }
+  .contact-title h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .contact-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .contact-input input {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: .75rem 2rem;
+  }
+  .contact-button button {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding: 1rem 2rem;
+  }
+  .footer-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .footer-icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer-text p {
+    font-size: .75rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 743px) {
+  .header-content {
+    overflow: hidden;
+    height: 90vh;
+  }
+  .header-text {
+    gap: 1.5rem;
+  }
+  .header-text .header-title h1{
+    font-size: 2rem;
+    line-height: 2.25rem;
+    letter-spacing: 0.05em;
+  }
+
+  .header-text .header-subtitle p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .header-button button {
+    gap: 2rem;
+    width: 15rem;
+    height: 3.125rem;
+    font-size: 1rem;
+    line-height: 2.25rem;
+  }
+
+  .header-svg {
+    position: absolute;
+    top: 10%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+  }
+
+  .introduction {
+    height: 60vh;
+  }
+  .introduction-content {
+    row-gap: 2rem;
+  }
+  .intoduction-svg1 {
+    position: absolute;
+    top: 0%;
+    left: -100%;
+  }
+
+  .intoduction-svg2 {
+    right: -65%;
+  }
+  .introduction-subtitle h3 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .introduction-title h2 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .introduction-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .info{
+    gap: 1rem;
+    padding: 3rem 1rem;
+  }
+  .info-textbox{
+    width: 15rem;
+  }
+  .info-title h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  .info-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .product {
+    flex-direction: column-reverse;
+    height: 40.5rem;
+    gap: 2%;
+  }
+
+  .product-content {
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  .product-title h2 {
+    font-size: 2.25rem;
+    line-height: 4.5rem;
+  }
+  .product-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  .product-image {
+    border-radius: 0px;
+    width: 100%;
+    height: 23.25rem;
+  }
+  .product-image img {
+    border-radius: 0px;
+  }
+  .product-vector {
+    top: 17%;
+    width: 100%;
+    height: 100%;
+  }
+  .product-vector svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pricing-text-area {
+    height: 40vh;
+    gap: 1.5rem;
+  }
+  .pricing-text {
+    width: 90%;
+  }
+  .pricing-title h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .piricing-subtitle p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+  .pricing {
+    flex-direction: column;
+    height: 135vh;
+  }
+  .piricing-box {
+    flex-direction: column-reverse;
+
+    align-items: center;
+    width: 100%;
+    border-radius: 0%;
+    height: 100%;
+    gap: 3rem;
+    padding-top: 0px;
+  }
+  .piricing-box-info {
+    row-gap: 2rem;
+    width: 80%;
+  }
+
+  .piricing-box-info-title h2 {
+    font-size: 36px;
+    line-height: 72px;
+  }
+  .piricing-box-info-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .piricing-box-pricebox {
+    min-width: 80% !important;
+    align-items: center;
+  }
+  .piricing-box-pricebox-header {
+    align-items: center;
+    justify-content: center;
+  }
+  .piricing-box-pricebox-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
+    text-align: center;
+  }
+  .piricing-box-pricebox-button button {
+    width: 9.75rem;
+    height: 3.124rem;
+  }
+  .piricing-box-line {
+    display: none;
+  }
+
+  .person {
+    height: 95vh;
+  }
+  .person-border {
+    width: 80%;
+    height: 31.125rem;
+    border-radius: 1.25rem;
+  }
+  .person-card {
+    flex-direction: column;
+    width: 99.7%;
+    height: 31rem;
+    padding: 0px;
+    gap: 2rem;
+    border-radius: 1.25rem;
+  }
+  .person-avatar {
+    width: 9.25rem;
+    height: 9.25rem;
+  }
+  .person-avatar img {
+    width: 9.25rem;
+    height: 9.25rem;
+  }
+  .person-content {
+    align-items: center;
+  }
+  .person-subtitle h3 {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+
+    text-align: center;
+  }
+  .person-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .person-vector {
+    position: absolute;
+    top: 0;
+    width: 200%;
+    height: 100%;
+  }
+
+  .contact {
+    height: 80vh;
+  }
+  .contact-content {
+    padding: 0px;
+  }
+  .contact-subtitle h3 {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+  }
+  .contact-title {
+    width: 100%;
+    padding: 0 .25rem;
+  }
+  .contact-subtitle h3 {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
+  .contact-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0 1rem;
+  }
+  .contact-title h2 {
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+    align-items: center;
+  }
+
+  .contact-inputs {
+    flex-direction: column;
+  }
+  .contact-input {
+    width: 90%;
+  }
+  .contact-input input {
+    font-size: 18px;
+    line-height: 1.25rem;
+    justify-content: center;
+    text-align: center;
+    padding: .5rem 2rem;
+  }
+  .contact-button {
+    width: 90%;
+  }
+  .contact-button button {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    padding: .75rem 2rem;
+  }
+
+  .contact-vector{
+    width: 250%;
+    height: 100%;
+  
+  }
+
+  .footer {
+    height: 40vh;
+  }
+  .footer-socialicon{
+    flex-direction: column;
+  }
+  .footer-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .footer-text p{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .footer-icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer-vector{
+    width: 250%;
+    height: 100%;
+  }
+}
